@@ -6,31 +6,11 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/ingres
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/ingres/proprietary/odm/etc/camera/camerabooster.json:$(TARGET_COPY_OUT_ODM)/etc/camera/camerabooster.json \
-    vendor/xiaomi/ingres/proprietary/system_ext/lib/vendor.qti.hardware.seccam@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.seccam@1.0.so \
-    vendor/xiaomi/ingres/proprietary/system_ext/lib64/vendor.qti.hardware.seccam@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.seccam@1.0.so \
     vendor/xiaomi/ingres/proprietary/vendor/bin/batterysecret:$(TARGET_COPY_OUT_VENDOR)/bin/batterysecret \
     vendor/xiaomi/ingres/proprietary/vendor/bin/hw/vendor.qti.camera.provider@2.7-service_64:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.camera.provider@2.7-service_64 \
     vendor/xiaomi/ingres/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.quickcamera@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.quickcamera@1.0-service \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/acdbdata/IDP_UPD/IDP_UPD_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD/IDP_UPD_workspaceFileXml.qwsp \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/acdbdata/IDP_UPD_diwali/IDP_UPD_diwali_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD_diwali/IDP_UPD_diwali_acdb_cal.acdb \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/acdbdata/IDP_UPD_diwali/IDP_UPD_diwali_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD_diwali/IDP_UPD_diwali_workspaceFileXml.qwsp \
     vendor/xiaomi/ingres/proprietary/vendor/etc/acdbdata/Mise/Mise_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Mise/Mise_acdb_cal.acdb \
     vendor/xiaomi/ingres/proprietary/vendor/etc/acdbdata/Mise/Mise_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Mise/Mise_workspaceFileXml.qwsp \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/acdbdata/diwali_idp/IDP_diwali_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_idp/IDP_diwali_acdb_cal.acdb \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/acdbdata/diwali_idp/IDP_diwali_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_idp/IDP_diwali_workspaceFileXml.qwsp \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/acdbdata/diwali_idp_sku1/IDP_diwali_sku1_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_idp_sku1/IDP_diwali_sku1_acdb_cal.acdb \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/acdbdata/diwali_idp_sku1/IDP_diwali_sku1_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_idp_sku1/IDP_diwali_sku1_workspaceFileXml.qwsp \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/acdbdata/diwali_qrd/QRD_diwali_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_qrd/QRD_diwali_acdb_cal.acdb \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/acdbdata/diwali_qrd/QRD_diwali_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_qrd/QRD_diwali_workspaceFileXml.qwsp \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/acdbdata/diwali_qrd_sku1/QRD_diwali_sku1_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_qrd_sku1/QRD_diwali_sku1_acdb_cal.acdb \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.7.20_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.7.20_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/xiaomi/ingres/proprietary/vendor/etc/camera/102_SummerDay.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/102_SummerDay.png \
     vendor/xiaomi/ingres/proprietary/vendor/etc/camera/103_Fantasy.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/103_Fantasy.png \
     vendor/xiaomi/ingres/proprietary/vendor/etc/camera/104_Meet.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/104_Meet.png \
@@ -101,12 +81,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ingres/proprietary/vendor/etc/camera/mialgo_seg_ldc_parameters.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mialgo_seg_ldc_parameters.json \
     vendor/xiaomi/ingres/proprietary/vendor/etc/camera/mibokeh_855_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_855_opencl.bin \
     vendor/xiaomi/ingres/proprietary/vendor/etc/camera/mibokeh_855_parameter.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_855_parameter.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/camera/model/dof_model/capture_cache:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model/dof_model/capture_cache \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/camera/model/dof_model/capture_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model/dof_model/capture_model \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/camera/model/dof_model/capture_policy:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model/dof_model/capture_policy \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/camera/model/rt_model/preview_cache:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model/rt_model/preview_cache \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/camera/model/rt_model/preview_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model/rt_model/preview_model \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/camera/model/rt_model/preview_policy:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model/rt_model/preview_policy \
     vendor/xiaomi/ingres/proprietary/vendor/etc/camera/model_ai_dxo.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model_ai_dxo.dlc \
     vendor/xiaomi/ingres/proprietary/vendor/etc/camera/model_aiie_cap.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model_aiie_cap.dlc \
     vendor/xiaomi/ingres/proprietary/vendor/etc/camera/model_back.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model_back.dlc \
@@ -366,11 +340,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ingres/proprietary/vendor/etc/camera/xiaomi/thirdpartyrawsupernightjpeg.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/xiaomi/thirdpartyrawsupernightjpeg.json \
     vendor/xiaomi/ingres/proprietary/vendor/etc/camera/xiaomi/thirdpartyrawsupernightyuv.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/xiaomi/thirdpartyrawsupernightyuv.json \
     vendor/xiaomi/ingres/proprietary/vendor/etc/camera/xiaomi/thirdpartysnapshot.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/xiaomi/thirdpartysnapshot.json \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/display/qdcm_calib_data_nt36672e_lcd_video_mode_dsi_novatek_panel_with_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_nt36672e_lcd_video_mode_dsi_novatek_panel_with_DSC.json \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/display/qdcm_calib_data_nt36672e_lcd_video_mode_dsi_novatek_panel_without_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_nt36672e_lcd_video_mode_dsi_novatek_panel_without_DSC.json \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/display/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_panel_without_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_panel_without_DSC.json \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/display/qdcm_calib_data_r66451_amoled_video_mode_dsi_visionox_panel_with_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_r66451_amoled_video_mode_dsi_visionox_panel_with_DSC.json \
-    vendor/xiaomi/ingres/proprietary/vendor/etc/display/qdcm_calib_data_r66451_amoled_video_mode_dsi_visionox_panel_without_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_r66451_amoled_video_mode_dsi_visionox_panel_without_DSC.json \
     vendor/xiaomi/ingres/proprietary/vendor/etc/display/qdcm_calib_data_xiaomi_42_02_0a_mp_cmd_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_xiaomi_42_02_0a_mp_cmd_mode_dsc_dsi_panel.json \
     vendor/xiaomi/ingres/proprietary/vendor/etc/init/hw/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.batterysecret.rc \
     vendor/xiaomi/ingres/proprietary/vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider@2.7-service_64.rc \
@@ -604,8 +573,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/98_nfcCardSlow_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/98_nfcCardSlow_RTP.bin \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/99_POCO_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/99_POCO_RTP.bin \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/9_ringTone4_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/9_ringTone4_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/AcousticGuitar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/AcousticGuitar_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Atlantis_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Atlantis_RTP.bin \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/BH-cs35l41-dsp1-spk-cali.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/BH-cs35l41-dsp1-spk-cali.bin \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/BH-cs35l41-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/BH-cs35l41-dsp1-spk-prot.bin \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/BH-handfree.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/BH-handfree.txt \
@@ -614,10 +581,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/BL-cs35l41-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/BL-cs35l41-dsp1-spk-prot.bin \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/BL-handfree.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/BL-handfree.txt \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/BL-music.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/BL-music.txt \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Bottle_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Bottle_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Bubble_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Bubble_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Bullfrog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Bullfrog_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Burst_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Burst_RTP.bin \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b00 \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/CAMERA_ICP.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b01 \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/CAMERA_ICP.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b02 \
@@ -645,81 +608,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/CAMERA_ICP.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.mdt \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/CAMERA_ICP_170.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_170.elf \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/CAMERA_ICP_480.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_480.elf \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/CFM_Headshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_Headshot_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/CFM_Headshot_Strong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_Headshot_Strong_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/CFM_Hero_Appear_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_Hero_Appear_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/CFM_ImpactFlesh_Normal_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_ImpactFlesh_Normal_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/CFM_KillOne_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_KillOne_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/CFM_KillOne_Strong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_KillOne_Strong_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/CFM_MultiKill_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_MultiKill_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/CFM_MultiKill_Strong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_MultiKill_Strong_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/CFM_UI_Reward_OpenBox_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_UI_Reward_OpenBox_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/CFM_UI_Reward_Task_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_UI_Reward_Task_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/CFM_Weapon_BLT_Shoot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_Weapon_BLT_Shoot_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/CFM_Weapon_C4_Installed_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_Weapon_C4_Installed_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/CFM_Weapon_Grenade_Explode_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_Weapon_Grenade_Explode_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/CFM_Weapon_Grenade_KillOne_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CFM_Weapon_Grenade_KillOne_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Candy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Candy_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Carousel_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Carousel_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Celesta_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Celesta_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Charge_Wire_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Charge_Wire_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Charge_Wireless_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Charge_Wireless_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Childhood_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Childhood_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Chirp_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Chirp_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Clank_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Clank_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Country_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Country_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Cowboy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Cowboy_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Crystal_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Crystal_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/DigitalUniverse_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/DigitalUniverse_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/FOD_Motion1_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FOD_Motion1_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/FOD_Motion2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FOD_Motion2_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/FOD_Motion3_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FOD_Motion3_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/FOD_Motion4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FOD_Motion4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/FOD_Motion_Aurora_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FOD_Motion_Aurora_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/FOD_Motion_Flare_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FOD_Motion_Flare_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/FOD_Motion_Planet_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FOD_Motion_Planet_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/FOD_Motion_Ripple_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FOD_Motion_Ripple_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/FOD_Motion_Spiral_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FOD_Motion_Spiral_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/FOD_Motion_Triang_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FOD_Motion_Triang_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/FaceID_Wrong2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FaceID_Wrong2_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/FadeIn_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FadeIn_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/FadeOut_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FadeOut_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Fairyland_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Fairyland_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Fantasy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Fantasy_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Field_Trip_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Field_Trip_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Flute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Flute_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Fresh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Fresh_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Frog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Frog_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Gesture_Back_Pull_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Gesture_Back_Pull_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Gesture_Back_Release_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Gesture_Back_Release_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Gesture_UpSlide_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Gesture_UpSlide_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Glee_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Glee_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Guitar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Guitar_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Harp_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Harp_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Ice_Latte_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Ice_Latte_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/IncomingMessage_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/IncomingMessage_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Kung_Fu_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Kung_Fu_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Lollipop_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Lollipop_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/MIX_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/MIX_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/MessageSent_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/MessageSent_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/MiClassicRemix_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/MiClassicRemix_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/MiHouse_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/MiHouse_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/MiJazz_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/MiJazz_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/MiMix2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/MiMix2_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/MiRemix_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/MiRemix_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Mi_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Mi_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Moment_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Moment_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Mountain_Spring_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Mountain_Spring_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/NFC_card_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/NFC_card_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/NFC_card_slow_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/NFC_card_slow_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/NotificationXylophone_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/NotificationXylophone_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Orange_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Orange_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Potion_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Potion_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Radar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Radar_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Reveries_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Reveries_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Space_Age_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Space_Age_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Spring_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Spring_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Swoosh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Swoosh_RTP.bin \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/TH-cs35l41-dsp1-spk-cali.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TH-cs35l41-dsp1-spk-cali.bin \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/TH-cs35l41-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TH-cs35l41-dsp1-spk-prot.bin \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/TH-handfree.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/TH-handfree.txt \
@@ -729,25 +617,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/TL-handfree.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/TL-handfree.txt \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/TL-handset.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/TL-handset.txt \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/TL-music.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/TL-music.txt \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/ToyRobot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ToyRobot_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Unlock_Failed_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Unlock_Failed_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/Vigor_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Vigor_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/WindChime_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WindChime_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/a660_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_sqe.fw \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/a662_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a662_gmu.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/a662_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a662_zap.b00 \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/a662_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a662_zap.b01 \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/a662_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a662_zap.b02 \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/a662_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a662_zap.elf \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/a662_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/a662_zap.mbn \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/a662_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a662_zap.mdt \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/a710_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a710_sqe.fw \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/a710_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a710_zap.b00 \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/a710_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a710_zap.b01 \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/a710_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a710_zap.b02 \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/a710_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a710_zap.elf \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/a710_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/a710_zap.mbn \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/a710_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a710_zap.mdt \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/a730_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a730_sqe.fw \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/a730_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a730_zap.b00 \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/a730_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a730_zap.b01 \
@@ -755,7 +624,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/a730_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a730_zap.elf \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/a730_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/a730_zap.mbn \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/a730_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a730_zap.mdt \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/alert_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alert_rtp.bin \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/aw22xxx_cfg_audio_flower.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw22xxx_cfg_audio_flower.bin \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/aw22xxx_cfg_audio_skyline.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw22xxx_cfg_audio_skyline.bin \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/aw22xxx_cfg_led_blue_13.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw22xxx_cfg_led_blue_13.bin \
@@ -779,11 +647,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/aw8697_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic.bin \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/aw8697_haptic_nv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic_nv.bin \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/aw8697_rtp_1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp_1.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/bandage_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bandage_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/crawl_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/crawl_RTP.bin \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/cs35l41-dsp1-spk-cali.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-cali.wmfw \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/cs35l41-dsp1-spk-prot.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-prot.wmfw \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/door_open_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/door_open_RTP.bin \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/evass-lt-21.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.b00 \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/evass-lt-21.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.b01 \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/evass-lt-21.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt-21.b02 \
@@ -837,625 +702,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/evautil64.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/evautil64.b06 \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/evautil64.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/evautil64.b07 \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/evautil64.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evautil64.mdt \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/feedback_negative_light_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/feedback_negative_light_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/feedback_neutral_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/feedback_neutral_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/feedback_positive_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/feedback_positive_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/fingerprint_record_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint_record_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/firearms_akm_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_akm_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/firearms_awm_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_awm_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/firearms_dp28_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_dp28_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/firearms_m16a4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_m16a4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/firearms_mini14_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_mini14_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/firearms_p18c_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_p18c_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/firearms_qbz_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_qbz_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/firearms_s1897_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_s1897_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/firearms_ump9_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_ump9_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/firearms_vss_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_vss_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/gamebox_launch_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gamebox_launch_rtp.bin \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/gmu_gen70000.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gmu_gen70000.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/grenade_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/grenade_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/grenade_explosion_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/grenade_explosion_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/haptics_video_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/haptics_video_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/launcher_edit_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/launcher_edit_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/launcher_icon_selection_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/launcher_icon_selection_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/lockdown_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/lockdown_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/lockscreen_camera_entry_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/lockscreen_camera_entry_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/magazine_quick_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/magazine_quick_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/new_iconfolder_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/new_iconfolder_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/notification_cleanall_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notification_cleanall_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/notification_remove_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notification_remove_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/notification_setting_close_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notification_setting_close_rtp.bin \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/novatek_spi_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_spi_fw.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/0_click_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/0_click_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/101_offlineCountdown_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/101_offlineCountdown_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/102_sceneBombInjury_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/102_sceneBombInjury_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/103_sceneBomb_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/103_sceneBomb_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/104_doorOpen_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/104_doorOpen_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/106_sceneStep_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/106_sceneStep_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/107_crawl_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/107_crawl_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/108_scopeOn_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/108_scopeOn_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/109_scopeOff_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/109_scopeOff_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/10_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/10_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/110_magazineQuick_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/110_magazineQuick_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/111_grenade_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/111_grenade_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/112_sceneGetshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/112_sceneGetshot_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/113_grenadeExplosion_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/113_grenadeExplosion_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/114_punch_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/114_punch_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/115_pan_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/115_pan_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/116_bandage_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/116_bandage_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/118_sceneJump_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/118_sceneJump_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/119_vehiclePlane_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/119_vehiclePlane_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/11_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/11_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/120_sceneOpenparachute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/120_sceneOpenparachute_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/121_sceneCloseparachute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/121_sceneCloseparachute_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/122_vehicleCollision_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/122_vehicleCollision_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/123_vehicleBuggy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/123_vehicleBuggy_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/124_vehicleDacia_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/124_vehicleDacia_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/125_vehicleMoto_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/125_vehicleMoto_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/126_firearmsAkm_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/126_firearmsAkm_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/127_firearmsM16a4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/127_firearmsM16a4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/128_firearmsAwm_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/128_firearmsAwm_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/129_firearmsawm_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/129_firearmsawm_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/12_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/12_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/130_firearmsMini14_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/130_firearmsMini14_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/131_firearmsVss_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/131_firearmsVss_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/132_firearmsQbz_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/132_firearmsQbz_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/133_firearmsUmp9_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/133_firearmsUmp9_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/134_firearmsDp28_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/134_firearmsDp28_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/135_firearmsS1897_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/135_firearmsS1897_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/137_firearmsP18c_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/137_firearmsP18c_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/13_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/13_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/140_cfmKillOne_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/140_cfmKillOne_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/141_cfmHeadshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/141_cfmHeadshot_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/142_cfmMultiKill_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/142_cfmMultiKill_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/143_cfmKillOneStrong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/143_cfmKillOneStrong_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/144_cfmHeadshotStrong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/144_cfmHeadshotStrong_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/145_cfmMultiKillStrong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/145_cfmMultiKillStrong_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/146_cfmWeaponGrenadeExplode_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/146_cfmWeaponGrenadeExplode_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/147_cfmWeaponGrenadeKillOne_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/147_cfmWeaponGrenadeKillOne_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/148_cfmImpactFleshNormal_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/148_cfmImpactFleshNormal_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/149_cfmWeaponC4Installed_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/149_cfmWeaponC4Installed_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/14_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/14_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/150_cfmHeroAppear_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/150_cfmHeroAppear_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/151_cfmUIRewardOpenBox_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/151_cfmUIRewardOpenBox_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/152_cfmUIRewardTask_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/152_cfmUIRewardTask_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/153_cfmWeaponBLTShoot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/153_cfmWeaponBLTShoot_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/154_Atlantis_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/154_Atlantis_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/155_DigitalUniverse_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/155_DigitalUniverse_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/156_Reveries_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/156_Reveries_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/157_fodMotionTriang_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/157_fodMotionTriang_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/158_fodMotionFlare_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/158_fodMotionFlare_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/159_fodMotionRipple_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/159_fodMotionRipple_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/15_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/15_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/160_fodMotionSpiral_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/160_fodMotionSpiral_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/161_gameboxLaunch_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/161_gameboxLaunch_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/162_GestureBackPull_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/162_GestureBackPull_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/163_GestureBackRelease_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/163_GestureBackRelease_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/164_alert_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/164_alert_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/165_feedbackNegativeLight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/165_feedbackNegativeLight_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/166_feedbackNeutral_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/166_feedbackNeutral_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/167_feedbackPositive_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/167_feedbackPositive_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/168_fingerprintRecord_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/168_fingerprintRecord_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/169_lockdown_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/169_lockdown_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/16_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/16_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/170_slidingDamping_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/170_slidingDamping_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/171_todoAlldone_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/171_todoAlldone_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/172_uninstallAnimationIcon_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/172_uninstallAnimationIcon_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/173_signalButtonHighlight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/173_signalButtonHighlight_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/174_signalButtonNegative_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/174_signalButtonNegative_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/175_signalButton_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/175_signalButton_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/176_signalClockHigh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/176_signalClockHigh_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/177_signalClock_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/177_signalClock_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/178_signalClockUnit_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/178_signalClockUnit_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/179_signalInputbox_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/179_signalInputbox_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/17_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/17_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/180_signalKeyHigh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/180_signalKeyHigh_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/181_signalKeyUnit_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/181_signalKeyUnit_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/182_signalListHighlight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/182_signalListHighlight_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/183_signalList_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/183_signalList_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/184_signalPicker_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/184_signalPicker_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/185_signalPopup_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/185_signalPopup_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/186_signalSeekbar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/186_signalSeekbar_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/187_signalSwitch_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/187_signalSwitch_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/188_signalTab_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/188_signalTab_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/189_signalText_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/189_signalText_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/18_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/18_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/190_signalTransitionLight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/190_signalTransitionLight_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/191_signalTransition_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/191_signalTransition_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/192_hapticsVideo_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/192_hapticsVideo_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/193_KeyboardClickyDown_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/193_KeyboardClickyDown_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/194_KeyboardClickyUp_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/194_KeyboardClickyUp_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/195_KeyboardLinearDown_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/195_KeyboardLinearDown_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/196_KeyboardLinearUp_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/196_KeyboardLinearUp_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/19_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/19_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/1_doubelClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/1_doubelClick_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/20_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/20_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/23_Candy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/23_Candy_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/24_Carousel_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/24_Carousel_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/25_Celesta_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/25_Celesta_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/26_Childhood_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/26_Childhood_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/27_Country_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/27_Country_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/28_Cowboy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/28_Cowboy_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/2_tick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/2_tick_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/30_Fairyland_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/30_Fairyland_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/31_Fantasy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/31_Fantasy_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/32_FieldTrip_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/32_FieldTrip_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/33_Glee_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/33_Glee_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/35_IceLatte_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/35_IceLatte_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/36_KungFu_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/36_KungFu_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/38_Lollipop_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/38_Lollipop_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/39_MiMix2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/39_MiMix2_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/3_thud_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/3_thud_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/40_Mi_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/40_Mi_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/41_MiHouse_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/41_MiHouse_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/42_MiJazz_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/42_MiJazz_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/43_MiRemix_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/43_MiRemix_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/44_MountainSpring_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/44_MountainSpring_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/45_Orange_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/45_Orange_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/46_WindChime_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/46_WindChime_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/47_SpaceAge_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/47_SpaceAge_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/48_ToyRobot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/48_ToyRobot_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/49_Vigor_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/49_Vigor_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/4_pop_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/4_pop_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/50_Bottle_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/50_Bottle_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/51_Bubble_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/51_Bubble_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/521_AcousticGuitar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/521_AcousticGuitar_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/52_Bullfrog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/52_Bullfrog_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/53_Burst_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/53_Burst_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/54_Chirp_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/54_Chirp_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/55_Clank_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/55_Clank_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/56_Crystal_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/56_Crystal_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/57_FadeIn_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/57_FadeIn_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/58_FadeOut_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/58_FadeOut_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/59_Flute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/59_Flute_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/5_heavyClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/5_heavyClick_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/60_Fresh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/60_Fresh_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/61_Frog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/61_Frog_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/62_Guitar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/62_Guitar_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/63_Harp_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/63_Harp_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/64_IncomingMessage_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/64_IncomingMessage_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/65_MessageSent_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/65_MessageSent_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/66_Moment_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/66_Moment_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/67_NotificationXylophone_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/67_NotificationXylophone_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/68_Potion_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/68_Potion_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/69_Radar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/69_Radar_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/6_ringTone1_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/6_ringTone1_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/70_Spring_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/70_Spring_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/71_Swoosh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/71_Swoosh_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/72_GestureUpSlide_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/72_GestureUpSlide_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/73_fodMotionPlanet_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/73_fodMotionPlanet_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/74_ChargeWire_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/74_ChargeWire_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/75_ChargeWireless_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/75_ChargeWireless_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/76_UnlockFailed_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/76_UnlockFailed_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/77_fodMotion1_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/77_fodMotion1_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/78_fodMotion2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/78_fodMotion2_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/79_fodMotion3_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/79_fodMotion3_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/7_ringTone2_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/7_ringTone2_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/80_fodMotion4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/80_fodMotion4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/81_fodMotionAurora_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/81_fodMotionAurora_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/82_FaceIDWrong2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/82_FaceIDWrong2_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/83_uninstallAnimation_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/83_uninstallAnimation_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/84_uninstallDialog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/84_uninstallDialog_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/85_screenshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/85_screenshot_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/86_lockscreenCameraEntry_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/86_lockscreenCameraEntry_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/87_launcherEdit_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/87_launcherEdit_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/88_launcherIconSelection_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/88_launcherIconSelection_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/8_ringTone3_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/8_ringTone3_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/90_taskCleanAll_Rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/90_taskCleanAll_Rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/91_newIconFolder_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/91_newIconFolder_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/92_notificationRemove_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/92_notificationRemove_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/93_notificationCleanall_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/93_notificationCleanall_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/96_nfcCard_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/96_nfcCard_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/98_nfcCardSlow_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/98_nfcCardSlow_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/99_POCO_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/99_POCO_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/nv_firmware/9_ringTone4_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nv_firmware/9_ringTone4_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/offline_countdown_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/offline_countdown_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/pan_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/pan_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/punch_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/punch_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/scene_bomb_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_bomb_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/scene_bomb_injury_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_bomb_injury_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/scene_closeparachute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_closeparachute_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/scene_getshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_getshot_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/scene_jump_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_jump_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/scene_openparachute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_openparachute_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/scene_step_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_step_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/scope_off_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scope_off_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/scope_on_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scope_on_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/screenshot_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/screenshot_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/signal_button_highlight_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/signal_button_highlight_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/signal_button_negative_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/signal_button_negative_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/signal_button_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/signal_button_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/signal_clock_high_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/signal_clock_high_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/signal_clock_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/signal_clock_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/signal_clock_unit_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/signal_clock_unit_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/signal_inputbox_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/signal_inputbox_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/signal_key_high_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/signal_key_high_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/signal_key_unit_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/signal_key_unit_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/signal_list_highlight_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/signal_list_highlight_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/signal_list_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/signal_list_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/signal_picker_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/signal_picker_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/signal_popup_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/signal_popup_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/signal_seekbar_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/signal_seekbar_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/signal_switch_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/signal_switch_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/signal_tab_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/signal_tab_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/signal_text_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/signal_text_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/signal_transition_light_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/signal_transition_light_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/signal_transition_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/signal_transition_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/sliding_damping_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sliding_damping_rtp.bin \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/st_fts_l10.ftb:$(TARGET_COPY_OUT_VENDOR)/firmware/st_fts_l10.ftb \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/st_fts_l10_thp.ftb:$(TARGET_COPY_OUT_VENDOR)/firmware/st_fts_l10_thp.ftb \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/stm_fts_production_limits.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/stm_fts_production_limits.csv \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/task_cleanall_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/task_cleanall_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/todo_alldone_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/todo_alldone_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/uninstall_animation_icon_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/uninstall_animation_icon_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/uninstall_animation_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/uninstall_animation_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/uninstall_dialog_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/uninstall_dialog_rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vehicle_buggy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vehicle_buggy_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vehicle_collision_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vehicle_collision_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vehicle_dacia_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vehicle_dacia_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vehicle_moto_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vehicle_moto_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vehicle_plane_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vehicle_plane_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/0_click_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/0_click_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/101_offlineCountdown_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/101_offlineCountdown_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/102_sceneBombInjury_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/102_sceneBombInjury_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/103_sceneBomb_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/103_sceneBomb_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/104_doorOpen_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/104_doorOpen_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/106_sceneStep_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/106_sceneStep_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/107_crawl_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/107_crawl_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/108_scopeOn_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/108_scopeOn_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/109_scopeOff_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/109_scopeOff_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/10_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/10_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/110_magazineQuick_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/110_magazineQuick_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/111_grenade_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/111_grenade_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/112_sceneGetshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/112_sceneGetshot_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/113_grenadeExplosion_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/113_grenadeExplosion_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/114_punch_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/114_punch_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/115_pan_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/115_pan_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/116_bandage_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/116_bandage_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/118_sceneJump_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/118_sceneJump_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/119_vehiclePlane_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/119_vehiclePlane_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/11_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/11_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/120_sceneOpenparachute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/120_sceneOpenparachute_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/121_sceneCloseparachute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/121_sceneCloseparachute_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/122_vehicleCollision_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/122_vehicleCollision_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/123_vehicleBuggy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/123_vehicleBuggy_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/124_vehicleDacia_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/124_vehicleDacia_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/125_vehicleMoto_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/125_vehicleMoto_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/126_firearmsAkm_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/126_firearmsAkm_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/127_firearmsM16a4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/127_firearmsM16a4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/128_firearmsAwm_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/128_firearmsAwm_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/129_firearmsawm_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/129_firearmsawm_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/12_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/12_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/130_firearmsMini14_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/130_firearmsMini14_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/131_firearmsVss_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/131_firearmsVss_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/132_firearmsQbz_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/132_firearmsQbz_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/133_firearmsUmp9_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/133_firearmsUmp9_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/134_firearmsDp28_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/134_firearmsDp28_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/135_firearmsS1897_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/135_firearmsS1897_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/137_firearmsP18c_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/137_firearmsP18c_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/13_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/13_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/140_cfmKillOne_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/140_cfmKillOne_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/141_cfmHeadshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/141_cfmHeadshot_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/142_cfmMultiKill_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/142_cfmMultiKill_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/143_cfmKillOneStrong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/143_cfmKillOneStrong_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/144_cfmHeadshotStrong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/144_cfmHeadshotStrong_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/145_cfmMultiKillStrong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/145_cfmMultiKillStrong_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/146_cfmWeaponGrenadeExplode_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/146_cfmWeaponGrenadeExplode_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/147_cfmWeaponGrenadeKillOne_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/147_cfmWeaponGrenadeKillOne_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/148_cfmImpactFleshNormal_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/148_cfmImpactFleshNormal_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/149_cfmWeaponC4Installed_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/149_cfmWeaponC4Installed_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/14_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/14_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/150_cfmHeroAppear_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/150_cfmHeroAppear_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/151_cfmUIRewardOpenBox_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/151_cfmUIRewardOpenBox_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/152_cfmUIRewardTask_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/152_cfmUIRewardTask_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/153_cfmWeaponBLTShoot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/153_cfmWeaponBLTShoot_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/154_Atlantis_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/154_Atlantis_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/155_DigitalUniverse_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/155_DigitalUniverse_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/156_Reveries_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/156_Reveries_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/157_fodMotionTriang_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/157_fodMotionTriang_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/158_fodMotionFlare_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/158_fodMotionFlare_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/159_fodMotionRipple_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/159_fodMotionRipple_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/15_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/15_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/160_fodMotionSpiral_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/160_fodMotionSpiral_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/161_gameboxLaunch_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/161_gameboxLaunch_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/162_GestureBackPull_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/162_GestureBackPull_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/163_GestureBackRelease_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/163_GestureBackRelease_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/164_alert_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/164_alert_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/165_feedbackNegativeLight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/165_feedbackNegativeLight_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/166_feedbackNeutral_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/166_feedbackNeutral_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/167_feedbackPositive_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/167_feedbackPositive_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/168_fingerprintRecord_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/168_fingerprintRecord_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/169_lockdown_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/169_lockdown_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/16_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/16_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/170_slidingDamping_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/170_slidingDamping_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/171_todoAlldone_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/171_todoAlldone_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/172_uninstallAnimationIcon_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/172_uninstallAnimationIcon_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/173_signalButtonHighlight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/173_signalButtonHighlight_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/174_signalButtonNegative_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/174_signalButtonNegative_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/175_signalButton_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/175_signalButton_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/176_signalClockHigh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/176_signalClockHigh_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/177_signalClock_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/177_signalClock_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/178_signalClockUnit_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/178_signalClockUnit_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/179_signalInputbox_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/179_signalInputbox_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/17_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/17_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/180_signalKeyHigh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/180_signalKeyHigh_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/181_signalKeyUnit_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/181_signalKeyUnit_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/182_signalListHighlight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/182_signalListHighlight_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/183_signalList_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/183_signalList_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/184_signalPicker_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/184_signalPicker_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/185_signalPopup_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/185_signalPopup_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/186_signalSeekbar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/186_signalSeekbar_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/187_signalSwitch_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/187_signalSwitch_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/188_signalTab_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/188_signalTab_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/189_signalText_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/189_signalText_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/18_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/18_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/190_signalTransitionLight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/190_signalTransitionLight_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/191_signalTransition_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/191_signalTransition_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/192_hapticsVideo_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/192_hapticsVideo_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/19_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/19_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/1_doubelClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/1_doubelClick_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/20_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/20_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/23_Candy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/23_Candy_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/24_Carousel_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/24_Carousel_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/25_Celesta_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/25_Celesta_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/26_Childhood_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/26_Childhood_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/27_Country_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/27_Country_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/28_Cowboy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/28_Cowboy_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/2_tick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/2_tick_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/30_Fairyland_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/30_Fairyland_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/31_Fantasy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/31_Fantasy_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/32_FieldTrip_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/32_FieldTrip_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/33_Glee_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/33_Glee_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/35_IceLatte_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/35_IceLatte_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/36_KungFu_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/36_KungFu_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/38_Lollipop_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/38_Lollipop_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/39_MiMix2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/39_MiMix2_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/3_thud_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/3_thud_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/40_Mi_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/40_Mi_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/41_MiHouse_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/41_MiHouse_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/42_MiJazz_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/42_MiJazz_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/43_MiRemix_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/43_MiRemix_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/44_MountainSpring_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/44_MountainSpring_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/45_Orange_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/45_Orange_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/46_WindChime_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/46_WindChime_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/47_SpaceAge_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/47_SpaceAge_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/48_ToyRobot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/48_ToyRobot_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/49_Vigor_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/49_Vigor_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/4_pop_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/4_pop_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/50_Bottle_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/50_Bottle_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/51_Bubble_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/51_Bubble_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/521_AcousticGuitar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/521_AcousticGuitar_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/52_Bullfrog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/52_Bullfrog_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/53_Burst_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/53_Burst_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/54_Chirp_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/54_Chirp_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/55_Clank_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/55_Clank_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/56_Crystal_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/56_Crystal_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/57_FadeIn_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/57_FadeIn_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/58_FadeOut_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/58_FadeOut_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/59_Flute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/59_Flute_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/5_heavyClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/5_heavyClick_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/60_Fresh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/60_Fresh_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/61_Frog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/61_Frog_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/62_Guitar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/62_Guitar_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/63_Harp_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/63_Harp_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/64_IncomingMessage_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/64_IncomingMessage_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/65_MessageSent_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/65_MessageSent_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/66_Moment_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/66_Moment_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/67_NotificationXylophone_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/67_NotificationXylophone_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/68_Potion_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/68_Potion_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/69_Radar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/69_Radar_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/6_ringTone1_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/6_ringTone1_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/70_Spring_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/70_Spring_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/71_Swoosh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/71_Swoosh_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/72_GestureUpSlide_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/72_GestureUpSlide_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/73_fodMotionPlanet_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/73_fodMotionPlanet_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/74_ChargeWire_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/74_ChargeWire_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/75_ChargeWireless_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/75_ChargeWireless_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/76_UnlockFailed_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/76_UnlockFailed_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/77_fodMotion1_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/77_fodMotion1_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/78_fodMotion2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/78_fodMotion2_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/79_fodMotion3_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/79_fodMotion3_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/7_ringTone2_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/7_ringTone2_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/80_fodMotion4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/80_fodMotion4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/81_fodMotionAurora_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/81_fodMotionAurora_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/82_FaceIDWrong2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/82_FaceIDWrong2_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/83_uninstallAnimation_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/83_uninstallAnimation_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/84_uninstallDialog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/84_uninstallDialog_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/85_screenshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/85_screenshot_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/86_lockscreenCameraEntry_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/86_lockscreenCameraEntry_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/87_launcherEdit_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/87_launcherEdit_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/88_launcherIconSelection_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/88_launcherIconSelection_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/8_ringTone3_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/8_ringTone3_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/90_taskCleanAll_Rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/90_taskCleanAll_Rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/91_newIconFolder_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/91_newIconFolder_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/92_notificationRemove_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/92_notificationRemove_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/93_notificationCleanall_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/93_notificationCleanall_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/96_nfcCard_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/96_nfcCard_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/98_nfcCardSlow_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/98_nfcCardSlow_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_aidl/9_ringTone4_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/9_ringTone4_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/0_click_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/0_click_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/101_offlineCountdown_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/101_offlineCountdown_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/102_sceneBombInjury_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/102_sceneBombInjury_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/103_sceneBomb_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/103_sceneBomb_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/104_doorOpen_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/104_doorOpen_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/106_sceneStep_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/106_sceneStep_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/107_crawl_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/107_crawl_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/108_scopeOn_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/108_scopeOn_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/109_scopeOff_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/109_scopeOff_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/10_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/10_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/110_magazineQuick_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/110_magazineQuick_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/111_grenade_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/111_grenade_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/112_sceneGetshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/112_sceneGetshot_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/113_grenadeExplosion_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/113_grenadeExplosion_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/114_punch_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/114_punch_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/115_pan_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/115_pan_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/116_bandage_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/116_bandage_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/118_sceneJump_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/118_sceneJump_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/119_vehiclePlane_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/119_vehiclePlane_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/11_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/11_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/120_sceneOpenparachute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/120_sceneOpenparachute_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/121_sceneCloseparachute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/121_sceneCloseparachute_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/122_vehicleCollision_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/122_vehicleCollision_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/123_vehicleBuggy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/123_vehicleBuggy_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/124_vehicleDacia_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/124_vehicleDacia_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/125_vehicleMoto_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/125_vehicleMoto_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/126_firearmsAkm_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/126_firearmsAkm_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/127_firearmsM16a4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/127_firearmsM16a4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/128_firearmsAwm_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/128_firearmsAwm_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/129_firearmsawm_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/129_firearmsawm_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/12_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/12_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/130_firearmsMini14_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/130_firearmsMini14_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/131_firearmsVss_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/131_firearmsVss_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/132_firearmsQbz_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/132_firearmsQbz_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/133_firearmsUmp9_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/133_firearmsUmp9_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/134_firearmsDp28_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/134_firearmsDp28_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/135_firearmsS1897_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/135_firearmsS1897_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/137_firearmsP18c_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/137_firearmsP18c_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/13_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/13_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/140_cfmKillOne_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/140_cfmKillOne_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/141_cfmHeadshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/141_cfmHeadshot_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/142_cfmMultiKill_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/142_cfmMultiKill_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/143_cfmKillOneStrong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/143_cfmKillOneStrong_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/144_cfmHeadshotStrong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/144_cfmHeadshotStrong_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/145_cfmMultiKillStrong_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/145_cfmMultiKillStrong_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/146_cfmWeaponGrenadeExplode_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/146_cfmWeaponGrenadeExplode_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/147_cfmWeaponGrenadeKillOne_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/147_cfmWeaponGrenadeKillOne_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/148_cfmImpactFleshNormal_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/148_cfmImpactFleshNormal_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/149_cfmWeaponC4Installed_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/149_cfmWeaponC4Installed_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/14_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/14_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/150_cfmHeroAppear_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/150_cfmHeroAppear_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/151_cfmUIRewardOpenBox_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/151_cfmUIRewardOpenBox_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/152_cfmUIRewardTask_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/152_cfmUIRewardTask_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/153_cfmWeaponBLTShoot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/153_cfmWeaponBLTShoot_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/154_Atlantis_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/154_Atlantis_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/155_DigitalUniverse_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/155_DigitalUniverse_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/156_Reveries_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/156_Reveries_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/157_fodMotionTriang_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/157_fodMotionTriang_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/158_fodMotionFlare_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/158_fodMotionFlare_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/159_fodMotionRipple_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/159_fodMotionRipple_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/15_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/15_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/160_fodMotionSpiral_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/160_fodMotionSpiral_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/161_gameboxLaunch_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/161_gameboxLaunch_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/162_GestureBackPull_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/162_GestureBackPull_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/163_GestureBackRelease_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/163_GestureBackRelease_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/164_alert_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/164_alert_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/165_feedbackNegativeLight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/165_feedbackNegativeLight_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/166_feedbackNeutral_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/166_feedbackNeutral_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/167_feedbackPositive_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/167_feedbackPositive_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/168_fingerprintRecord_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/168_fingerprintRecord_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/169_lockdown_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/169_lockdown_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/16_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/16_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/170_slidingDamping_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/170_slidingDamping_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/171_todoAlldone_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/171_todoAlldone_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/172_uninstallAnimationIcon_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/172_uninstallAnimationIcon_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/173_signalButtonHighlight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/173_signalButtonHighlight_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/174_signalButtonNegative_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/174_signalButtonNegative_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/175_signalButton_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/175_signalButton_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/176_signalClockHigh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/176_signalClockHigh_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/177_signalClock_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/177_signalClock_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/178_signalClockUnit_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/178_signalClockUnit_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/179_signalInputbox_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/179_signalInputbox_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/17_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/17_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/180_signalKeyHigh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/180_signalKeyHigh_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/181_signalKeyUnit_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/181_signalKeyUnit_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/182_signalListHighlight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/182_signalListHighlight_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/183_signalList_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/183_signalList_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/184_signalPicker_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/184_signalPicker_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/185_signalPopup_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/185_signalPopup_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/186_signalSeekbar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/186_signalSeekbar_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/187_signalSwitch_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/187_signalSwitch_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/188_signalTab_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/188_signalTab_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/189_signalText_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/189_signalText_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/18_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/18_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/190_signalTransitionLight_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/190_signalTransitionLight_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/191_signalTransition_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/191_signalTransition_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/192_hapticsVideo_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/192_hapticsVideo_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/193_KeyboardClickyDown_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/193_KeyboardClickyDown_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/194_KeyboardClickyUp_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/194_KeyboardClickyUp_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/195_KeyboardLinearDown_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/195_KeyboardLinearDown_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/196_KeyboardLinearUp_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/196_KeyboardLinearUp_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/19_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/19_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/1_doubelClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/1_doubelClick_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/20_ringTone4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/20_ringTone4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/23_Candy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/23_Candy_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/24_Carousel_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/24_Carousel_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/25_Celesta_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/25_Celesta_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/26_Childhood_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/26_Childhood_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/27_Country_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/27_Country_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/28_Cowboy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/28_Cowboy_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/2_tick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/2_tick_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/30_Fairyland_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/30_Fairyland_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/31_Fantasy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/31_Fantasy_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/32_FieldTrip_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/32_FieldTrip_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/33_Glee_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/33_Glee_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/35_IceLatte_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/35_IceLatte_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/36_KungFu_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/36_KungFu_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/38_Lollipop_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/38_Lollipop_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/39_MiMix2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/39_MiMix2_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/3_thud_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/3_thud_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/40_Mi_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/40_Mi_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/41_MiHouse_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/41_MiHouse_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/42_MiJazz_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/42_MiJazz_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/43_MiRemix_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/43_MiRemix_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/44_MountainSpring_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/44_MountainSpring_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/45_Orange_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/45_Orange_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/46_WindChime_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/46_WindChime_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/47_SpaceAge_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/47_SpaceAge_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/48_ToyRobot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/48_ToyRobot_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/49_Vigor_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/49_Vigor_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/4_pop_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/4_pop_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/50_Bottle_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/50_Bottle_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/51_Bubble_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/51_Bubble_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/521_AcousticGuitar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/521_AcousticGuitar_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/52_Bullfrog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/52_Bullfrog_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/53_Burst_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/53_Burst_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/54_Chirp_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/54_Chirp_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/55_Clank_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/55_Clank_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/56_Crystal_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/56_Crystal_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/57_FadeIn_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/57_FadeIn_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/58_FadeOut_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/58_FadeOut_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/59_Flute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/59_Flute_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/5_heavyClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/5_heavyClick_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/60_Fresh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/60_Fresh_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/61_Frog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/61_Frog_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/62_Guitar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/62_Guitar_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/63_Harp_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/63_Harp_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/64_IncomingMessage_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/64_IncomingMessage_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/65_MessageSent_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/65_MessageSent_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/66_Moment_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/66_Moment_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/67_NotificationXylophone_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/67_NotificationXylophone_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/68_Potion_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/68_Potion_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/69_Radar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/69_Radar_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/6_ringTone1_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/6_ringTone1_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/70_Spring_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/70_Spring_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/71_Swoosh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/71_Swoosh_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/72_GestureUpSlide_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/72_GestureUpSlide_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/73_fodMotionPlanet_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/73_fodMotionPlanet_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/74_ChargeWire_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/74_ChargeWire_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/75_ChargeWireless_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/75_ChargeWireless_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/76_UnlockFailed_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/76_UnlockFailed_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/77_fodMotion1_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/77_fodMotion1_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/78_fodMotion2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/78_fodMotion2_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/79_fodMotion3_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/79_fodMotion3_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/7_ringTone2_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/7_ringTone2_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/80_fodMotion4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/80_fodMotion4_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/81_fodMotionAurora_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/81_fodMotionAurora_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/82_FaceIDWrong2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/82_FaceIDWrong2_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/83_uninstallAnimation_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/83_uninstallAnimation_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/84_uninstallDialog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/84_uninstallDialog_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/85_screenshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/85_screenshot_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/86_lockscreenCameraEntry_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/86_lockscreenCameraEntry_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/87_launcherEdit_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/87_launcherEdit_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/88_launcherIconSelection_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/88_launcherIconSelection_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/8_ringTone3_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/8_ringTone3_P_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/90_taskCleanAll_Rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/90_taskCleanAll_Rtp.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/91_newIconFolder_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/91_newIconFolder_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/92_notificationRemove_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/92_notificationRemove_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/93_notificationCleanall_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/93_notificationCleanall_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/96_nfcCard_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/96_nfcCard_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/98_nfcCardSlow_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/98_nfcCardSlow_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/99_POCO_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/99_POCO_RTP.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/firmware/vibrator_firmware_nv/9_ringTone4_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_nv/9_ringTone4_P_RTP.bin \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/vpu20_4v.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b00 \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/vpu20_4v.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b01 \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/vpu20_4v.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b02 \
@@ -1470,7 +721,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/vpu20_4v.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b19 \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
     vendor/xiaomi/ingres/proprietary/vendor/firmware/vpu20_4v.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mdt \
-    vendor/xiaomi/ingres/proprietary/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib/camera/com.qti.sensormodule.ingres_aac_ov8856_ultra.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.ingres_aac_ov8856_ultra.bin \
     vendor/xiaomi/ingres/proprietary/vendor/lib/camera/com.qti.sensormodule.ingres_ofilm_gc02m1_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.ingres_ofilm_gc02m1_macro.bin \
     vendor/xiaomi/ingres/proprietary/vendor/lib/camera/com.qti.sensormodule.ingres_sunny_imx596_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.ingres_sunny_imx596_front.bin \
@@ -1511,15 +761,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ingres/proprietary/vendor/lib/libcamxsettingsmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxsettingsmanager.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib/libcv_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcv_common.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib/libcvface_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvface_api.so \
-    vendor/xiaomi/ingres/proprietary/vendor/lib/libdisplayconfig.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplayconfig.qti.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib/libeva.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeva.so \
-    vendor/xiaomi/ingres/proprietary/vendor/lib/libgralloc.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc.qti.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib/libgrallocutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgrallocutils.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib/libmialgo_ai_vision.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmialgo_ai_vision.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib/libmialgo_globalsaliency.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmialgo_globalsaliency.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib/libmialgo_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmialgo_utils.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib/libos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libos.so \
-    vendor/xiaomi/ingres/proprietary/vendor/lib/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdMetaData.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib/libqshcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqshcamera.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib/libscveCommon_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon_stub.so \
@@ -1538,9 +785,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ingres/proprietary/vendor/lib/rfsa/adsp/capi_elus_rx.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_elus_rx.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib/rfsa/adsp/capi_elus_tx.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_elus_tx.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib/rfsa/adsp/misound_res_spk.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_res_spk.bin \
-    vendor/xiaomi/ingres/proprietary/vendor/lib/vendor.qti.hardware.display.config-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.display.config-V2-ndk_platform.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib/vendor.xiaomi.hardware.quickcamera@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.quickcamera@1.0.so \
-    vendor/xiaomi/ingres/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/camera/com.qti.eeprom.ingres_aac_ov8856_gt24p64e_ultra_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.ingres_aac_ov8856_gt24p64e_ultra_eeprom.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/camera/com.qti.eeprom.ingres_ofilm_gc02m1_bl24sa64_macro_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.ingres_ofilm_gc02m1_bl24sa64_macro_eeprom.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/camera/com.qti.eeprom.ingres_sunny_imx596_gt24p64e_front_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.ingres_sunny_imx596_gt24p64e_front_eeprom.so \
@@ -1777,13 +1022,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/libcv_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcv_common.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/libcvface_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvface_api.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/libdeflicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdeflicker.so \
-    vendor/xiaomi/ingres/proprietary/vendor/lib64/libdisplayconfig.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisplayconfig.qti.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/libellv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libellv.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/libeva.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeva.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/libgoodixhwfingerprint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixhwfingerprint.so \
-    vendor/xiaomi/ingres/proprietary/vendor/lib64/libgralloc.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc.qti.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/libgrallocutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgrallocutils.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/libhdr10plus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr10plus.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/libhexagon_controller.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhexagon_controller.so \
@@ -1825,7 +1068,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/libopencv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopencv.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/libopencv3a.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopencv3a.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/libos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libos.so \
-    vendor/xiaomi/ingres/proprietary/vendor/lib64/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdMetaData.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/libqshcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqshcamera.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/librelight_only.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librelight_only.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/libremosaic_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaic_wrapper.so \
@@ -1853,10 +1095,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/libxmi_hdr_checker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxmi_hdr_checker.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/libxmi_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxmi_high_dynamic_range.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/vendor.qti.hardware.camera.aon@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.aon@1.0-service-impl.so \
-    vendor/xiaomi/ingres/proprietary/vendor/lib64/vendor.qti.hardware.camera.aon@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.aon@1.0.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so \
-    vendor/xiaomi/ingres/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0.so \
-    vendor/xiaomi/ingres/proprietary/vendor/lib64/vendor.qti.hardware.display.config-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.config-V2-ndk_platform.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/vendor.xiaomi.hardware.bgservice@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.bgservice@1.0-impl.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/vendor.xiaomi.hardware.bgservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.bgservice@1.0.so \
     vendor/xiaomi/ingres/proprietary/vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.campostproc@1.0-service-impl.so \
